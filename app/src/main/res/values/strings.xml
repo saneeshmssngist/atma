@@ -1,0 +1,13 @@
+<resources>
+    <string name="app_name">Atma</string>
+    <string name="action_settings">Settings</string>
+    <string name="section_format">Hello World from section: %1$d</string>
+
+    <string name="quotes">       All the religions of the world express the same
+    truth in different languages and in various ways.</string>
+
+
+    <string name="APPID">ca-app-pub-5847774043131331~9930042401</string>
+    <string name="BANNERID">ca-app-pub-5847774043131331/2782465539</string>
+
+</resources>

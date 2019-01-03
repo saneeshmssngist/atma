@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:id="@+id/activity_quranpart1"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context="com.atmas.saneesh.atma.Quran.Quranpart1"
+    android:background="@drawable/qurannps">
+
+    <include layout="@layout/navigation_action"/>
+
+    <WebView
+        android:id="@+id/webview"
+        android:layout_marginTop="45dp"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_marginBottom="40dp"
+        />
+
+    <com.google.android.gms.ads.AdView
+        android:id="@+id/adMobView"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        app:adSize="BANNER"
+        app:adUnitId="@string/BANNERID"
+        android:layout_centerHorizontal="true"
+        android:layout_alignParentBottom="true"
+        />
+
+</RelativeLayout>

@@ -1,0 +1,62 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    package="com.atmas.saneesh.atma">
+
+    <uses-permission android:name="android.permission.ACCESS_NETWORK_STATE" />
+    <uses-permission android:name="android.permission.ACCESS_WIFI_STATE" />
+    <uses-permission android:name="android.permission.INTERNET" />
+    <uses-permission android:name="android.permission.VIBRATE" />
+
+
+    <application
+        android:allowBackup="true"
+        android:icon="@mipmap/atma_logo"
+        android:label="@string/app_name"
+        android:supportsRtl="true"
+        android:theme="@style/AppTheme">
+        <meta-data
+            android:name="com.google.android.gms.version"
+            android:value="@integer/google_play_services_version" />
+
+        <activity android:name="com.atmas.saneesh.atma.Splashscreen"
+            android:screenOrientation="portrait"
+            >
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+        <activity android:name="com.atmas.saneesh.atma.Home"
+            android:screenOrientation="portrait"
+            >
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+                <category android:name="android.intent.category.DEFAULT" />
+            </intent-filter>
+        </activity>
+        <activity android:name="com.atmas.saneesh.atma.Ramayana.Ramayanalong" />
+        <activity android:name="com.atmas.saneesh.atma.Ramayana.Ramayanashort" />
+        <activity
+            android:name="com.atmas.saneesh.atma.Ramayana.Ramayanavideo"
+            android:screenOrientation="portrait" />
+        <activity android:name="com.atmas.saneesh.atma.Ramayana.Ramayana"
+            android:screenOrientation="portrait"/>
+        <activity android:name="com.atmas.saneesh.atma.Bible.Bibleread1" />
+        <activity android:name="com.atmas.saneesh.atma.Bible.Bibleread2" />
+        <activity android:name="com.atmas.saneesh.atma.Bible.Bibleread3" />
+        <activity android:name="com.atmas.saneesh.atma.Bible.Bible"
+            android:screenOrientation="portrait"/>
+        <activity android:name="com.atmas.saneesh.atma.Quran.Quranpart1" />
+        <activity android:name="com.atmas.saneesh.atma.Quran.Quranpart2" />
+        <activity android:name="com.atmas.saneesh.atma.Quran.Quran"
+            android:screenOrientation="portrait"/>
+        <activity android:name="com.atmas.saneesh.atma.MainActivity"
+            android:screenOrientation="portrait"/>
+
+        <activity
+            android:name="com.atmas.saneesh.atma.Ramayana.Video_show"
+            android:screenOrientation="landscape" />
+
+    </application>
+
+</manifest>

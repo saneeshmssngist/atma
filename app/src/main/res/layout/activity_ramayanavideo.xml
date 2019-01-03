@@ -1,0 +1,87 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/activity_ramayanavideo"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/ramayanbg"
+    tools:context="com.atmas.saneesh.atma.Ramayana.Ramayanavideo">
+
+    <include layout="@layout/navigation_action" />
+
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_marginBottom="40dp">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="10dp"
+            android:layout_marginRight="10dp"
+            android:layout_marginTop="50dp"
+            android:orientation="vertical">
+
+            <ImageButton
+                android:id="@+id/btn1"
+                android:layout_width="match_parent"
+                android:layout_height="150dp"
+                android:src="@drawable/part1" />
+
+            <ImageButton
+                android:id="@+id/btn2"
+                android:layout_width="match_parent"
+                android:layout_height="150dp"
+                android:layout_marginTop="10dp"
+                android:src="@drawable/part2" />
+
+            <ImageButton
+                android:id="@+id/btn3"
+                android:layout_width="match_parent"
+                android:layout_height="150dp"
+                android:layout_marginTop="10dp"
+                android:src="@drawable/part3" />
+
+            <ImageButton
+                android:id="@+id/btn4"
+                android:layout_width="match_parent"
+                android:layout_height="200dp"
+                android:layout_marginTop="10dp"
+                android:src="@drawable/part4" />
+
+            <ImageButton
+                android:id="@+id/btn5"
+                android:layout_width="match_parent"
+                android:layout_height="150dp"
+                android:layout_marginTop="10dp"
+                android:src="@drawable/part5" />
+
+            <ImageButton
+                android:id="@+id/btn6"
+                android:layout_width="match_parent"
+                android:layout_height="150dp"
+                android:layout_marginTop="10dp"
+                android:src="@drawable/part6" />
+
+            <ImageButton
+                android:id="@+id/btn7"
+                android:layout_width="match_parent"
+                android:layout_height="150dp"
+                android:layout_marginTop="10dp"
+                android:src="@drawable/part7" />
+
+        </LinearLayout>
+    </ScrollView>
+
+
+    <com.google.android.gms.ads.AdView
+        android:id="@+id/adMobView"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentBottom="true"
+        android:layout_centerHorizontal="true"
+        app:adSize="BANNER"
+        app:adUnitId="@string/BANNERID" />
+
+</RelativeLayout>
